@@ -1,6 +1,6 @@
 mensagem();
 
-function mensagem(){
+function mensagem() {
     console.log("Olá, seja bem-vindo");
 }
 

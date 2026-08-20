@@ -1,19 +1,17 @@
 function apresentar(nome){
-    console.log("Olá," + nome);
+    console.log("Ola, " + nome);
 }
+apresentar("Manuella")
 
-apresentar("Manu");
-
-
-function sistema(nome = "Visitante"){
-console.log("Olá," + nome);
-
+function sistema(nome = "Manuella") //se nenhum valor for indicaod, o programa entende como "Visitante".
+{
+    console.log("Ola, "+ nome);
 }
 sistema();
-sistema("Manu");
+sistema("Vitor");
 
-function somar(numero1 , numero2){
-    console.log(`${numero1} + ${numero2} = ${numero1 + numero2}`);
+function somar(numero1, numero2){
+    console.log(`${numero1} + ${numero2} = ${numero1 + numero2}`)
 }
 
-somar(10,5);
+somar(5,10);
